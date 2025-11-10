@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      .city {
+        background-color: rgb(162, 115, 107);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .city1 {
+        background-color: rgb(137, 141, 88);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .city2 {
+        background-color: rgb(174, 228, 140);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .city3 {
+        background-color: rgb(144, 194, 188);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .city4 {
+        background-color: rgb(40, 52, 116);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .calculation {
+        background-color: rgb(187, 130, 233);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .city6 {
+        background-color: rgb(135, 64, 115);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .city7 {
+        background-color: rgb(181, 87, 71);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .background {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      #cityImage {
+        width: 400px;
+        /* set your preferred width */
+        height: auto;
+        /* keeps aspect ratio */
+        border-radius: 10px;
+        /* optional: rounded corners */
+        object-fit: cover;
+        /* keeps image nicely cropped */
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="background">
+      <h1>City names</h1>
+
+      <div class="city">
+        <h2>Chitwan</h2>
+        <p id="1"> Land of Rhino.</p>
+        <button type="button" onclick="myFunction()">Change</button>
+        <script src="script.js"></script>
+      </div>
+
+      <div class="city1">
+        <h2>Pokhara</h2>
+        <p id="2">City of lakes</p>
+        <button type="button" onclick="myFunction1()">Hide</button>
+        <script src="script.js"></script>
+      </div>
+
+      <div id="3" class="city2">
+        <h2>Portugal</h2>
+        <p>Lisbon is the capital of Portugal.</p>
+        <img id="cityImage" src="portugal.jpg" alt="City Image">
+        <br><br>
+        <button type="button" onclick="changeImage()">Change Image</button>
+        <script src="script.js"></script>
+      </div>
+
+      <div id="4" class="city3">
+        <h2>Kathmandu</h2>
+        <p>Kathmandu is a major city in Nepal.</p>
+        <button type="button" onclick="changeColor()">Change Background</button>
+        <script src="script.js"></script>
+      </div>
+
+      <div id="5" class="city4">
+        <h2>Surkhet</h2>
+        <p id="toggleP">Surkhet is the capital of Karnali.</p>
+        <button type="button" onclick="toggleParagraph()">Hide / Show</button>
+        <script src="script.js"></script>
+      </div>
+
+      <div id="6" class="calculation">
+        <h1>JavaScript Arithmetic</h1>
+        <h2>Sum</h2>
+        <p id="demo"></p>
+        <button type="button" onclick="sum()">Show Result</button>
+      </div>
+      <script src="script.js"></script>
+
+
+      <div class="city6">
+        <h2>Bangkok</h2>
+        <p>Bangkok is the capital of Thailand.</p>
+      </div>
+
+      <div class="city7">
+        <h2>Seoul</h2>
+        <p>Seoul is the capital of South Korea.</p>
+      </div>
+
+
+
+    </div>
+  </body>
+
+</html>
